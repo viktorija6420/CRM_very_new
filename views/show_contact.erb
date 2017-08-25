@@ -4,3 +4,10 @@
 <%=@contact.last_name%>
 <%=@contact.email%>
 <%=@contact.note%></div>
+
+<form type="delete" action="/contacts/<%=@contact.id%>" method="post">
+<input type="hidden" name="_method" value="delete">
+  <input type="submit" name="delete" value="delete">
+</form>
+
+<a href="/contacts/edit_contact"></a>
