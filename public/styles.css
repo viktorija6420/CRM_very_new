@@ -1,0 +1,69 @@
+h1{
+  margin-bottom: 0;
+}
+.header {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.menu {
+  color:white;
+  font-weight: bold;
+  margin-right: 20px;
+  text-align: center;
+  color: white
+
+}
+
+.hello {
+  width: 100%;
+  padding: 0;
+  margin-right: 20px;
+  position: relative;
+  margin-left: 0;
+  margin-top: 0;
+  list-style: none;
+}
+
+li {
+  width:100%;
+  background-color: darkgray;
+  margin-bottom: 5px;
+  margin-top:0;
+  padding: 10px;
+}
+
+.amount {
+  margin-right: 20px;
+  margin-left: 40px;
+  text-align: left;
+  color:black;
+  padding:10px;
+  background-color: tomato;
+  height:30px;
+}
+
+
+.contact_info {
+  margin-right: 40px;
+  background-color: turquoise;
+  height: 30px;
+}
+
+.list_of_contacts {
+  list-style: none;
+  color:black;
+  margin-right: 40px;
+}
+
+
+footer {
+  text-align: center;
+  background-color: black;
+  color:white;
+  width: 100%;
+  height: 40px;
+  length:80%;
+
+}
