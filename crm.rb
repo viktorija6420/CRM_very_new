@@ -12,6 +12,9 @@ get '/contacts/' do
   erb :contacts
 end
 
+get '/contacts/new' do
+ erb :new
+end
 
 get '/contacts/:id' do
   # params[:id] contains the id from the URL
@@ -26,6 +29,8 @@ end
 get '/about' do
   erb :about
 end
+
+
 
 after do
   ActiveRecord::Base.connection.close
